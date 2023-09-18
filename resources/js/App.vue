@@ -1,6 +1,6 @@
 <template>
     <div class="page">
-      <p>{{ counter }}</p>
+      <p class="text-danger">{{ counter }}</p>
       <button @click="counter += 1">
         click!
       </button>
