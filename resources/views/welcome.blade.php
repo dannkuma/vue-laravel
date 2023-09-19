@@ -4,12 +4,17 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>Laravel Vite Vue</title>
-        @vite(['resources/sass/app.scss', 'resources/js/app.js'])
+        @vite([ 'resources/css/app.css', 'resources/sass/app.scss', 'resources/js/app.js'])
     </head>
     <body>
-        <div id="app"></div>
+        <div id="app">
+        <draggable></draggable>
         </div>
-        <p class="text-danger">赤色のテキスト</p>
+        <ul class="list-none bg-red-400">
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+        </ul>
     </nav>
     </body>
 </html>
